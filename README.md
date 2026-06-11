@@ -1,52 +1,42 @@
-##📊 Amazon Reviews Sentiment Analysis Using ML and NLP
 
-📌 Project Overview
-This project applies Natural Language Processing (NLP) and Machine Learning techniques to classify Amazon product reviews into positive and negative sentiments. Neutral reviews are excluded to focus on clear sentiment polarity.
+# 📊 Amazon Reviews Sentiment Analysis Using ML and NLP
 
-The model leverages TF-IDF vectorization with n-grams and a Logistic Regression classifier, achieving 94.88% accuracy on the test set.
+## 📌 Project Overview
+This project applies **Natural Language Processing (NLP)** and **Machine Learning** techniques to classify Amazon product reviews into **positive** and **negative sentiments**. Neutral reviews are excluded to focus on clear sentiment polarity.  
 
-⚙️ Workflow
-Data Preprocessing
+The model leverages **TF-IDF vectorization** with n-grams and a **Logistic Regression classifier**, achieving **94.88% accuracy** on the test set.
 
-Removed neutral reviews (Score = 3)
+---
 
-Converted ratings into binary sentiment labels (positive = 1, negative = 0)
+## ⚙️ Workflow
+1. **Data Preprocessing**  
+   - Removed neutral reviews (`Score = 3`)  
+   - Converted ratings into binary sentiment labels (positive = 1, negative = 0)  
+   - Dropped rows with missing text  
 
-Dropped rows with missing text
+2. **Feature Extraction**  
+   - Applied **TF-IDF Vectorizer** with unigrams and bigrams  
+   - Limited features to 10,000 for efficiency  
 
-Feature Extraction
+3. **Model Training**  
+   - Logistic Regression with `max_iter=1000`  
+   - Train/test split (80/20)  
 
-Applied TF-IDF Vectorizer with unigrams and bigrams
+4. **Evaluation**  
+   - Accuracy: **94.88%**  
+   - Confusion Matrix for error analysis  
 
-Limited features to 10,000 for efficiency
+---
 
-Model Training
+## 📈 Results
+- **Accuracy:** 94.88%  
+- **Sentiment Distribution:** Balanced dataset with more positive reviews  
+- **Confusion Matrix:** Shows strong performance in both classes  
+---
 
-Logistic Regression with max_iter=1000
-
-Train/test split (80/20)
-
-Evaluation
-
-Accuracy: 94.88%
-
-Confusion Matrix for error analysis
-
-📈 Results
-Accuracy: 94.88%
-
-Sentiment Distribution: Balanced dataset with more positive reviews
-
-Confusion Matrix: Shows strong performance in both classes
-
-
-
-
-
-📊 Visualizations
-Sentiment Distribution: Displays the proportion of positive vs negative reviews
-
-Confusion Matrix: Highlights correct vs incorrect predictions
+## 📊 Visualizations
+- **Sentiment Distribution**: Displays the proportion of positive vs negative reviews  
+- **Confusion Matrix**: Highlights correct vs incorrect predictions  
 
 <img width="597" height="455" alt="image" src="https://github.com/user-attachments/assets/8849eb19-de71-488b-92ba-e9dbf367401b" />
 
