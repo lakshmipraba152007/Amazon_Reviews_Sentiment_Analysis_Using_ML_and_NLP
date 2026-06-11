@@ -1,4 +1,5 @@
-📊 Amazon Reviews Sentiment Analysis Using ML and NLP
+##📊 Amazon Reviews Sentiment Analysis Using ML and NLP
+
 📌 Project Overview
 This project applies Natural Language Processing (NLP) and Machine Learning techniques to classify Amazon product reviews into positive and negative sentiments. Neutral reviews are excluded to focus on clear sentiment polarity.
 
