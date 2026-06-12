@@ -39,6 +39,3 @@ The model leverages **TF-IDF vectorization** with n-grams and a **Logistic Regre
 - **Sentiment Distribution**: Displays the proportion of positive vs negative reviews  
 - **Confusion Matrix**: Highlights correct vs incorrect predictions  
 
-<img width="597" height="455" alt="image" src="https://github.com/user-attachments/assets/8849eb19-de71-488b-92ba-e9dbf367401b" />
-
-<img width="527" height="393" alt="image" src="https://github.com/user-attachments/assets/f5ab6c5f-a886-4408-8c4d-0c890d92dcea" />
