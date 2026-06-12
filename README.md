@@ -5,6 +5,7 @@
 This project applies **Natural Language Processing (NLP)** and **Machine Learning** techniques to classify Amazon product reviews into **positive** and **negative sentiments**. Neutral reviews are excluded to focus on clear sentiment polarity.  
 
 The model leverages **TF-IDF vectorization** with n-grams and a **Logistic Regression classifier**, achieving **94.88% accuracy** on the test set.
+<img width="1024" height="851" alt="image" src="https://github.com/user-attachments/assets/287d1026-937f-4e3b-9700-21879c2ddb42" />
 
 ---
 
